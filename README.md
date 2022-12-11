@@ -1,7 +1,7 @@
 # Exact-and-Heuristic-Solution-Approaches-for-Energy-Efficient-Identical-Parallel-Machine-Scheduling
 
 The folder "instances" contains all the data for the 90 instances used in the experimental evaluation.
-For each instance <i>i</i> = 1, ... , 90, we encode instance i by means of three different files:
+For each instance <i>i</i> = 1, ... , 90, we encode instance <i>i</i> by means of three different files:
 <ul>
   <li>"Data_c<i>i</i>.txt"  :  energy costs of the time slots</li>
   <li>"Data_p<i>i</i>.txt"  :  processing times of the jobs</li>
