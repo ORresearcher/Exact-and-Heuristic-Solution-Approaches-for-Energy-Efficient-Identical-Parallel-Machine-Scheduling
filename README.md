@@ -1,6 +1,13 @@
 # Exact-and-Heuristic-Solution-Approaches-for-Energy-Efficient-Identical-Parallel-Machine-Scheduling
 
-The folder "instances" contains all the data for the instances used in the experimental evaluation.<br><br>
+The folder "instances" contains all the data for the 90 instances used in the experimental evaluation.
+For each instance <i>i</i> = 1, ... , 90, we encode instance i by means of three different files:
+<ul>
+  <li>"Data_c<i>i</i>.txt"  :  energy costs of the time slots</li>
+  <li>"Data_p<i>i</i>.txt"  :  processing times of the jobs</li>
+  <li>"Data_e<i>i</i>.txt"  :  energy consumption rates of the machines</li>
+</ul>
+<br>
 The folder "results" contains the results obtained by the solution approaches considered in the paper, that is:
 <ul>
   <li><i>Exact algorithm with Formulation 2 (F2)</i>;</li> 
